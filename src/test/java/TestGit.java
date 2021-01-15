@@ -10,6 +10,7 @@ public class TestGit {
        int y=20;
        int a=x+y;
        Assert.assertEquals(30,a);
+       Assert.assertSame(30,a);
 
    }
 
